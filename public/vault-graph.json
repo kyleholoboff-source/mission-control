@@ -1,0 +1,1823 @@
+{
+  "generatedAt": "2026-05-11T23:01:32.385Z",
+  "vault": "~/vicbot-vault",
+  "stats": {
+    "nodeCount": 78,
+    "linkCount": 175,
+    "byFolder": {
+      "00-meta": 13,
+      "10-daily": 36,
+      "20-projects": 8,
+      "30-people": 8,
+      "40-knowledge": 7,
+      "50-decisions": 5,
+      "CLAUDE.md": 1
+    }
+  },
+  "nodes": [
+    {
+      "id": "AGENTS",
+      "path": "00-meta/AGENTS.md",
+      "folder": "00-meta",
+      "group": "meta",
+      "color": "#ef476f",
+      "type": "meta",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "This folder is home. Treat it that way.",
+      "degree": 2
+    },
+    {
+      "id": "HEARTBEAT",
+      "path": "00-meta/HEARTBEAT.md",
+      "folder": "00-meta",
+      "group": "meta",
+      "color": "#ef476f",
+      "type": "meta",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "1. **Bot errors** — Check `logs/bot_errors.log`. If new errors: analyze + message Kyle on Telegram with fix proposal.",
+      "degree": 2
+    },
+    {
+      "id": "Index",
+      "path": "00-meta/Index.md",
+      "folder": "00-meta",
+      "group": "meta",
+      "color": "#ef476f",
+      "type": "index",
+      "status": null,
+      "tags": [],
+      "updated": "2026-05-11",
+      "summary": "The map of this vault. Maintained by Vicbot at session end.",
+      "degree": 35
+    },
+    {
+      "id": "MEMORY-legacy",
+      "path": "00-meta/MEMORY-legacy.md",
+      "folder": "00-meta",
+      "group": "meta",
+      "color": "#ef476f",
+      "type": "pointer",
+      "status": null,
+      "tags": [],
+      "updated": "2026-05-11",
+      "summary": "All content from the original `MEMORY.md` was decomposed into structured notes on **2026-05-11**. This file used to hold pre-vault memory.",
+      "degree": 23
+    },
+    {
+      "id": "North-Star",
+      "path": "00-meta/North-Star.md",
+      "folder": "00-meta",
+      "group": "meta",
+      "color": "#ef476f",
+      "type": "north-star",
+      "status": null,
+      "tags": [],
+      "updated": "2026-05-11",
+      "summary": "- [[Victor Racquets work]] — customer inquiries, sales kit comms, supplier coordination",
+      "degree": 3
+    },
+    {
+      "id": "SOUL",
+      "path": "00-meta/SOUL.md",
+      "folder": "00-meta",
+      "group": "meta",
+      "color": "#ef476f",
+      "type": "meta",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "You are Vic, the Chief AI Overseer and digital brain for Victor Rackets North America. You operate out of our Vancouver, BC headquarters. You are not a generic virtual assistant; you are a core executive tool.",
+      "degree": 2
+    },
+    {
+      "id": "TOOLS",
+      "path": "00-meta/TOOLS.md",
+      "folder": "00-meta",
+      "group": "meta",
+      "color": "#ef476f",
+      "type": "meta",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "Skills define _how_ tools work. This file is for _your_ specifics — the stuff that's unique to your setup.",
+      "degree": 2
+    },
+    {
+      "id": "active_tasks",
+      "path": "00-meta/active_tasks.md",
+      "folder": "00-meta",
+      "group": "meta",
+      "color": "#ef476f",
+      "type": "index",
+      "status": null,
+      "tags": [
+        "tasks"
+      ],
+      "updated": "2026-05-11",
+      "summary": "- _(none currently)_",
+      "degree": 1
+    },
+    {
+      "id": "last-session",
+      "path": "00-meta/last-session.md",
+      "folder": "00-meta",
+      "group": "meta",
+      "color": "#ef476f",
+      "type": "pointer",
+      "status": null,
+      "tags": [],
+      "updated": "2026-05-11",
+      "summary": "- [[2026-05-11]]",
+      "degree": 3
+    },
+    {
+      "id": "decision",
+      "path": "00-meta/templates/decision.md",
+      "folder": "00-meta",
+      "group": "meta",
+      "color": "#ef476f",
+      "type": "decision",
+      "status": "accepted",
+      "tags": [
+        "decision"
+      ],
+      "updated": null,
+      "summary": "_What problem or situation forced a choice._",
+      "degree": 0
+    },
+    {
+      "id": "knowledge",
+      "path": "00-meta/templates/knowledge.md",
+      "folder": "00-meta",
+      "group": "meta",
+      "color": "#ef476f",
+      "type": "knowledge",
+      "status": null,
+      "tags": [
+        "reference"
+      ],
+      "updated": "{{date}}",
+      "summary": "_One-paragraph definition. Assume reader has zero context._",
+      "degree": 0
+    },
+    {
+      "id": "person",
+      "path": "00-meta/templates/person.md",
+      "folder": "00-meta",
+      "group": "meta",
+      "color": "#ef476f",
+      "type": "person",
+      "status": null,
+      "tags": [
+        "person"
+      ],
+      "updated": "{{date}}",
+      "summary": "_Role, organization, relationship to Kyle, location/timezone._",
+      "degree": 0
+    },
+    {
+      "id": "project",
+      "path": "00-meta/templates/project.md",
+      "folder": "00-meta",
+      "group": "meta",
+      "color": "#ef476f",
+      "type": "project",
+      "status": "active",
+      "tags": [
+        "project"
+      ],
+      "updated": "{{date}}",
+      "summary": "_What this project is trying to achieve in one sentence._",
+      "degree": 0
+    },
+    {
+      "id": "2026-03-11",
+      "path": "10-daily/2026-03-11.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "- **Phase 9 (API approach)**: `/api/product/search` endpoint returned 404 on `ca.victorsport.com`. API is not publicly accessible.",
+      "degree": 0
+    },
+    {
+      "id": "2026-03-12",
+      "path": "10-daily/2026-03-12.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "- **accessories_final.csv** — 134 linked | ~29 still blank",
+      "degree": 0
+    },
+    {
+      "id": "2026-03-13",
+      "path": "10-daily/2026-03-13.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "- **@VICTOR_BOOKING_BOT** — live, running as systemd user service (`bookingbot.service`)",
+      "degree": 0
+    },
+    {
+      "id": "2026-03-14",
+      "path": "10-daily/2026-03-14.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "New column structure (live):",
+      "degree": 0
+    },
+    {
+      "id": "2026-03-15",
+      "path": "10-daily/2026-03-15.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "Major VicStockBot development day — went from broken search to a much smarter bot, then launched an overnight subagent rebuild.",
+      "degree": 0
+    },
+    {
+      "id": "2026-03-16",
+      "path": "10-daily/2026-03-16.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "Kyle is going through each product category to sync all 5 Google Sheets to the Q3 sales kits. Progress so far:",
+      "degree": 0
+    },
+    {
+      "id": "2026-03-17",
+      "path": "10-daily/2026-03-17.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "Kyle made changes to the Canada Order Form and asked for all changes to propagate to USA Order Form + Collection, except pricing columns (each sheet keeps its own prices).",
+      "degree": 0
+    },
+    {
+      "id": "2026-03-18",
+      "path": "10-daily/2026-03-18.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "- Audited full booking pipeline after order forms sent to customers",
+      "degree": 0
+    },
+    {
+      "id": "2026-03-19",
+      "path": "10-daily/2026-03-19.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "- Signature redesigned: `--` separator, Vic / Administrative Assistant / Victor Racquets North America / www.victorsport.com / vic@mail.victorracquets.com / Victor logo at bottom",
+      "degree": 0
+    },
+    {
+      "id": "2026-03-21",
+      "path": "10-daily/2026-03-21.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "- Name is VIC — all caps always",
+      "degree": 0
+    },
+    {
+      "id": "2026-03-25",
+      "path": "10-daily/2026-03-25.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "- **VS-2026Q3-0007_JOY_BADMINTON** — `4046191@gmail.com`, 109 entries, master sheet written OK (RACKETS, APPAREL ACCESSORIES, GRIPS, SHOES, CLOTHING)",
+      "degree": 0
+    },
+    {
+      "id": "2026-03-26",
+      "path": "10-daily/2026-03-26.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "<!-- APPENDED 02:03 AM session below -->",
+      "degree": 0
+    },
+    {
+      "id": "2026-03-31",
+      "path": "10-daily/2026-03-31.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "- Installed via `curl -fsSL https://byterover.dev/openclaw-setup.sh | sh`",
+      "degree": 0
+    },
+    {
+      "id": "2026-04-14",
+      "path": "10-daily/2026-04-14.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "- First successful claim: NAW-14042026-00001 (Claim ID: fecff736-5c4a-4c8c-82f4-de498f35ed5a)",
+      "degree": 0
+    },
+    {
+      "id": "2026-04-15-401-error-unauthorized",
+      "path": "10-daily/2026-04-15-401-error-unauthorized.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "- **Session Key**: agent:main:telegram:direct:8675823047",
+      "degree": 0
+    },
+    {
+      "id": "2026-04-16",
+      "path": "10-daily/2026-04-16.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "Built a pattern for pulling wholesale prices from Canada price list XLSX and updating Google Sheets:",
+      "degree": 0
+    },
+    {
+      "id": "2026-04-17-1824",
+      "path": "10-daily/2026-04-17-1824.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "- **Session Key**: agent:main:telegram:direct:8675823047",
+      "degree": 0
+    },
+    {
+      "id": "2026-04-17-kyle-hello",
+      "path": "10-daily/2026-04-17-kyle-hello.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "- **Session Key**: agent:main:telegram:direct:8675823047",
+      "degree": 0
+    },
+    {
+      "id": "2026-04-17-llm-error-error-code-400-messa",
+      "path": "10-daily/2026-04-17-llm-error-error-code-400-messa.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "- **Session Key**: agent:main:telegram:direct:8675823047",
+      "degree": 0
+    },
+    {
+      "id": "2026-04-17-model-switch-memory-load",
+      "path": "10-daily/2026-04-17-model-switch-memory-load.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "- **Session Key**: agent:main:telegram:direct:8675823047",
+      "degree": 0
+    },
+    {
+      "id": "2026-04-17-session-check",
+      "path": "10-daily/2026-04-17-session-check.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "- **Session Key**: agent:main:telegram:direct:8675823047",
+      "degree": 0
+    },
+    {
+      "id": "2026-04-17-wholesale-price-automation",
+      "path": "10-daily/2026-04-17-wholesale-price-automation.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "- **Session Key**: agent:main:telegram:direct:8675823047",
+      "degree": 0
+    },
+    {
+      "id": "2026-04-17",
+      "path": "10-daily/2026-04-17.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "**Issue:** Inbox poller script (`vic_inbox_poller.py`) was missing from workspace. Heartbeat configured to check every 10 minutes but no actual script was running.",
+      "degree": 0
+    },
+    {
+      "id": "2026-04-20",
+      "path": "10-daily/2026-04-20.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "- Found OpenClaw falls back from Gemini 2.5 Pro to cheaper models and doesn't auto-recover",
+      "degree": 0
+    },
+    {
+      "id": "2026-04-24",
+      "path": "10-daily/2026-04-24.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "- **Venue:** MVP Eagles Badminton Gymnasium (MVP Eagles 羽毛球運動館), Vancouver BC",
+      "degree": 0
+    },
+    {
+      "id": "2026-04-27",
+      "path": "10-daily/2026-04-27.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "- Saved 2 photos to \"Sponsored Coaches 2026\" and \"Sponsored Coaches 2025\":",
+      "degree": 2
+    },
+    {
+      "id": "2026-04-29",
+      "path": "10-daily/2026-04-29.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "**Sheet:** THE CUSTOMER LIST (HITLIST) — ID `1Vkf2yxV5vIU5f2QBYPgggvXLkeIhjJhiC124kiHZJcE`",
+      "degree": 3
+    },
+    {
+      "id": "2026-05-01",
+      "path": "10-daily/2026-05-01.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "- Refactored `gmaps_scraper/scraper.py` into a **configurable, reusable** Google Maps scraper",
+      "degree": 0
+    },
+    {
+      "id": "2026-05-03",
+      "path": "10-daily/2026-05-03.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "- Canada + US badminton scrape finished (556 stores, 325 emails, 58%)",
+      "degree": 4
+    },
+    {
+      "id": "2026-05-04",
+      "path": "10-daily/2026-05-04.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "- **Phase 0**: Research — find national federations + Reddit threads, extract club names/locations",
+      "degree": 4
+    },
+    {
+      "id": "2026-05-06",
+      "path": "10-daily/2026-05-06.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "Ran a Google Maps harvest for badminton-related businesses across all 50 US states + DC. Keywords: `badminton,badminton club,racket club,racquet club,squash club`. Output to `gmaps_scraper/output_badminton/`.",
+      "degree": 9
+    },
+    {
+      "id": "2026-05-07",
+      "path": "10-daily/2026-05-07.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "- [[Kyle Holoboff|Kyle]] asked about scraping tasks from last night",
+      "degree": 5
+    },
+    {
+      "id": "2026-05-09",
+      "path": "10-daily/2026-05-09.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "- ByteRover Knowledge Miner ran automatically",
+      "degree": 0
+    },
+    {
+      "id": "2026-05-10",
+      "path": "10-daily/2026-05-10.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "- [[Kyle Holoboff|Kyle]] checked in. US sheet backfill is running.",
+      "degree": 10
+    },
+    {
+      "id": "2026-05-11",
+      "path": "10-daily/2026-05-11.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "- Active projects: Stikine US Sheet Backfill, openClaw build",
+      "degree": 24
+    },
+    {
+      "id": "_template",
+      "path": "10-daily/_template.md",
+      "folder": "10-daily",
+      "group": "daily",
+      "color": "#6c757d",
+      "type": "daily",
+      "status": null,
+      "tags": [],
+      "updated": null,
+      "summary": "- Active projects:",
+      "degree": 0
+    },
+    {
+      "id": "GMaps Scraper",
+      "path": "20-projects/GMaps Scraper.md",
+      "folder": "20-projects",
+      "group": "projects",
+      "color": "#3a86ff",
+      "type": "project",
+      "status": "active",
+      "tags": [
+        "project",
+        "scraping"
+      ],
+      "updated": "2026-05-11",
+      "summary": "Google Maps business scraper for finding badminton/hunting/outdoor stores across North and Latin America.",
+      "degree": 18
+    },
+    {
+      "id": "Mission Control Dashboard",
+      "path": "20-projects/Mission Control Dashboard.md",
+      "folder": "20-projects",
+      "group": "projects",
+      "color": "#3a86ff",
+      "type": "project",
+      "status": "completed",
+      "tags": [
+        "project"
+      ],
+      "updated": "2026-05-11",
+      "summary": "Executive dashboard for project management, task tracking, and cron job monitoring.",
+      "degree": 5
+    },
+    {
+      "id": "QBO AR Collections Assistant",
+      "path": "20-projects/QBO AR Collections Assistant.md",
+      "folder": "20-projects",
+      "group": "projects",
+      "color": "#3a86ff",
+      "type": "project",
+      "status": "blocked",
+      "tags": [
+        "project"
+      ],
+      "updated": "2026-05-11",
+      "summary": "QuickBooks Online integration to pull customers with open balances, list outstanding invoices, and generate email drafts for collections.",
+      "degree": 5
+    },
+    {
+      "id": "Stikine US Sheet Backfill",
+      "path": "20-projects/Stikine US Sheet Backfill.md",
+      "folder": "20-projects",
+      "group": "projects",
+      "color": "#3a86ff",
+      "type": "project",
+      "status": "active",
+      "tags": [
+        "project"
+      ],
+      "updated": "2026-05-11",
+      "summary": "Enrich ~27K US hunting/outdoor store rows with website, phone, and address data from Google Maps.",
+      "degree": 7
+    },
+    {
+      "id": "Superstore Bot",
+      "path": "20-projects/Superstore Bot.md",
+      "folder": "20-projects",
+      "group": "projects",
+      "color": "#3a86ff",
+      "type": "project",
+      "status": "active",
+      "tags": [
+        "project"
+      ],
+      "updated": "2026-05-11",
+      "summary": "Shopping list and meal planning bot (@TARA_SHOP_BOT) for Tara.",
+      "degree": 5
+    },
+    {
+      "id": "VicStockBot",
+      "path": "20-projects/VicStockBot.md",
+      "folder": "20-projects",
+      "group": "projects",
+      "color": "#3a86ff",
+      "type": "project",
+      "status": "blocked",
+      "tags": [
+        "project"
+      ],
+      "updated": "2026-05-11",
+      "summary": "Inventory tracking bot using SOS Inventory API for Victor Racquets stock management.",
+      "degree": 6
+    },
+    {
+      "id": "Victor Linker",
+      "path": "20-projects/Victor Linker.md",
+      "folder": "20-projects",
+      "group": "projects",
+      "color": "#3a86ff",
+      "type": "project",
+      "status": "paused",
+      "tags": [
+        "project"
+      ],
+      "updated": "2026-05-11",
+      "summary": "Link Victor products across regional websites (rackets, shoes, clothing).",
+      "degree": 5
+    },
+    {
+      "id": "Victor Racquets work",
+      "path": "20-projects/Victor Racquets work.md",
+      "folder": "20-projects",
+      "group": "projects",
+      "color": "#3a86ff",
+      "type": "project",
+      "status": "active",
+      "tags": [
+        "project"
+      ],
+      "updated": "2026-05-11",
+      "summary": "Core business operations — customer inquiries, sales kit comms, supplier coordination, order forms, sponsorships.",
+      "degree": 23
+    },
+    {
+      "id": "Amanda Wu",
+      "path": "30-people/Amanda Wu.md",
+      "folder": "30-people",
+      "group": "people",
+      "color": "#06d6a0",
+      "type": "person",
+      "status": null,
+      "tags": [
+        "person",
+        "contact"
+      ],
+      "updated": "2026-05-11",
+      "summary": "Victor HQ (Taiwan) contact.",
+      "degree": 6
+    },
+    {
+      "id": "Brian Tjoa",
+      "path": "30-people/Brian Tjoa.md",
+      "folder": "30-people",
+      "group": "people",
+      "color": "#06d6a0",
+      "type": "person",
+      "status": null,
+      "tags": [
+        "person",
+        "contact"
+      ],
+      "updated": "2026-05-11",
+      "summary": "Badminton Ontario contact.",
+      "degree": 6
+    },
+    {
+      "id": "Calvin Holoboff",
+      "path": "30-people/Calvin Holoboff.md",
+      "folder": "30-people",
+      "group": "people",
+      "color": "#06d6a0",
+      "type": "person",
+      "status": null,
+      "tags": [
+        "person",
+        "contact"
+      ],
+      "updated": "2026-05-11",
+      "summary": "President of Victor Racquets North America.",
+      "degree": 6
+    },
+    {
+      "id": "Ellen Fan",
+      "path": "30-people/Ellen Fan.md",
+      "folder": "30-people",
+      "group": "people",
+      "color": "#06d6a0",
+      "type": "person",
+      "status": null,
+      "tags": [
+        "person",
+        "contact"
+      ],
+      "updated": "2026-05-11",
+      "summary": "Victor HQ (Taiwan) contact.",
+      "degree": 6
+    },
+    {
+      "id": "Kyle Holoboff",
+      "path": "30-people/Kyle Holoboff.md",
+      "folder": "30-people",
+      "group": "people",
+      "color": "#06d6a0",
+      "type": "person",
+      "status": null,
+      "tags": [
+        "person",
+        "vip"
+      ],
+      "updated": "2026-05-11",
+      "summary": "Owner of Victor Racquets North America. My human. Vancouver, BC. Timezone America/Vancouver.",
+      "degree": 17
+    },
+    {
+      "id": "Tara Drage",
+      "path": "30-people/Tara Drage.md",
+      "folder": "30-people",
+      "group": "people",
+      "color": "#06d6a0",
+      "type": "person",
+      "status": null,
+      "tags": [
+        "person",
+        "vip"
+      ],
+      "updated": "2026-05-11",
+      "summary": "Kyle's wife. VIP priority — if Tara interacts or is mentioned urgently, requests get immediate priority.",
+      "degree": 6
+    },
+    {
+      "id": "Tim",
+      "path": "30-people/Tim.md",
+      "folder": "30-people",
+      "group": "people",
+      "color": "#06d6a0",
+      "type": "person",
+      "status": null,
+      "tags": [
+        "person",
+        "contact"
+      ],
+      "updated": "2026-05-11",
+      "summary": "Contact at Victor Racquets (HQ or North America operations).",
+      "degree": 6
+    },
+    {
+      "id": "_directory",
+      "path": "30-people/_directory.md",
+      "folder": "30-people",
+      "group": "people",
+      "color": "#06d6a0",
+      "type": "index",
+      "status": null,
+      "tags": [
+        "index",
+        "people"
+      ],
+      "updated": "2026-05-11",
+      "summary": "One-line summaries. Open the linked note for full context.",
+      "degree": 7
+    },
+    {
+      "id": "Contact Harvester Architecture",
+      "path": "40-knowledge/Contact Harvester Architecture.md",
+      "folder": "40-knowledge",
+      "group": "knowledge",
+      "color": "#ffd166",
+      "type": "knowledge",
+      "status": null,
+      "tags": [
+        "reference",
+        "scraping"
+      ],
+      "updated": "2026-05-11",
+      "summary": "- **fast**: Name + lat/lon only. ~3.3% email rate. Useless for contact data.",
+      "degree": 13
+    },
+    {
+      "id": "Critical Lessons",
+      "path": "40-knowledge/Critical Lessons.md",
+      "folder": "40-knowledge",
+      "group": "knowledge",
+      "color": "#ffd166",
+      "type": "knowledge",
+      "status": null,
+      "tags": [
+        "reference",
+        "lessons"
+      ],
+      "updated": "2026-05-11",
+      "summary": "- Mental notes don't survive session restarts. If you want to remember it, write it to a file.",
+      "degree": 7
+    },
+    {
+      "id": "Email Extraction False Positives",
+      "path": "40-knowledge/Email Extraction False Positives.md",
+      "folder": "40-knowledge",
+      "group": "knowledge",
+      "color": "#ffd166",
+      "type": "knowledge",
+      "status": null,
+      "tags": [
+        "reference",
+        "email-false-positives"
+      ],
+      "updated": "2026-05-11",
+      "summary": "- sentry.io — error monitoring service, not real contact",
+      "degree": 5
+    },
+    {
+      "id": "Email Rules",
+      "path": "40-knowledge/Email Rules.md",
+      "folder": "40-knowledge",
+      "group": "knowledge",
+      "color": "#ffd166",
+      "type": "knowledge",
+      "status": null,
+      "tags": [
+        "reference",
+        "email"
+      ],
+      "updated": "2026-05-11",
+      "summary": "- ALL emails signed as Vic (Administrative Assistant, Victor Racquets North America) — NEVER use Kyle's name/signature unless explicitly told to",
+      "degree": 6
+    },
+    {
+      "id": "Google Sheets Bulk Upload Pattern",
+      "path": "40-knowledge/Google Sheets Bulk Upload Pattern.md",
+      "folder": "40-knowledge",
+      "group": "knowledge",
+      "color": "#ffd166",
+      "type": "knowledge",
+      "status": null,
+      "tags": [
+        "reference",
+        "google-sheets"
+      ],
+      "updated": "2026-05-11",
+      "summary": "- Email: clawbot@unique-grid-490106-f9.iam.gserviceaccount.com",
+      "degree": 10
+    },
+    {
+      "id": "OpenClaw Configuration",
+      "path": "40-knowledge/OpenClaw Configuration.md",
+      "folder": "40-knowledge",
+      "group": "knowledge",
+      "color": "#ffd166",
+      "type": "knowledge",
+      "status": null,
+      "tags": [
+        "reference",
+        "openclaw"
+      ],
+      "updated": "2026-05-11",
+      "summary": "- Primary: ollama/gemma4:31b-cloud",
+      "degree": 5
+    },
+    {
+      "id": "SOS Inventory API",
+      "path": "40-knowledge/SOS Inventory API.md",
+      "folder": "40-knowledge",
+      "group": "knowledge",
+      "color": "#ffd166",
+      "type": "knowledge",
+      "status": null,
+      "tags": [
+        "reference",
+        "api"
+      ],
+      "updated": "2026-05-11",
+      "summary": "- Base URL: https://api.sosinventory.com",
+      "degree": 5
+    },
+    {
+      "id": "2026-04-27-claude-cli-primary",
+      "path": "50-decisions/2026-04-27-claude-cli-primary.md",
+      "folder": "50-decisions",
+      "group": "decisions",
+      "color": "#c77dff",
+      "type": "decision",
+      "status": "accepted",
+      "tags": [
+        "decision",
+        "openclaw"
+      ],
+      "updated": null,
+      "summary": "Anthropic enabled claude-cli provider mode (OAuth via local Claude binary) instead of token extraction. Kyle has a Max subscription.",
+      "degree": 3
+    },
+    {
+      "id": "2026-05-03-two-tier-search",
+      "path": "50-decisions/2026-05-03-two-tier-search.md",
+      "folder": "50-decisions",
+      "group": "decisions",
+      "color": "#c77dff",
+      "type": "decision",
+      "status": "accepted",
+      "tags": [
+        "decision",
+        "scraping"
+      ],
+      "updated": null,
+      "summary": "Mexico Google Maps harvest produced only 22 businesses. Federation websites listed 12+ clubs that Maps missed entirely. Organized badminton clubs don't show up as \"businesses\" on Maps.",
+      "degree": 4
+    },
+    {
+      "id": "2026-05-06-deep-harvest-mandatory",
+      "path": "50-decisions/2026-05-06-deep-harvest-mandatory.md",
+      "folder": "50-decisions",
+      "group": "decisions",
+      "color": "#c77dff",
+      "type": "decision",
+      "status": "accepted",
+      "tags": [
+        "decision",
+        "scraping"
+      ],
+      "updated": null,
+      "summary": "Initial badminton harvest used `--enrich-depth fast` mode. Result: 13,331 businesses but only 3.3% email rate (431 emails). Re-harvested thin states with `--enrich-depth deep`: 95% email rate.",
+      "degree": 5
+    },
+    {
+      "id": "2026-05-10-backfill-v5-approach",
+      "path": "50-decisions/2026-05-10-backfill-v5-approach.md",
+      "folder": "50-decisions",
+      "group": "decisions",
+      "color": "#c77dff",
+      "type": "decision",
+      "status": "accepted",
+      "tags": [
+        "decision",
+        "scraping"
+      ],
+      "updated": null,
+      "summary": "27K rows in US hunting sheet have name+state but lack website/phone/address. Previous backfill attempts failed (venv issues, Playwright pool problems).",
+      "degree": 6
+    },
+    {
+      "id": "2026-05-11-ollama-embeddings",
+      "path": "50-decisions/2026-05-11-ollama-embeddings.md",
+      "folder": "50-decisions",
+      "group": "decisions",
+      "color": "#c77dff",
+      "type": "decision",
+      "status": "accepted",
+      "tags": [
+        "decision",
+        "openclaw",
+        "infrastructure"
+      ],
+      "updated": null,
+      "summary": "OpenClaw's memory_search was broken because node-llama-cpp (the default local embedding provider) was missing/failed to install. Semantic search over memory files was completely unavailable.",
+      "degree": 3
+    },
+    {
+      "id": "CLAUDE",
+      "path": "CLAUDE.md",
+      "folder": "CLAUDE.md",
+      "group": "other",
+      "color": "#8d99ae",
+      "type": "operating-manual",
+      "status": null,
+      "tags": [],
+      "updated": "2026-05-11",
+      "summary": "This vault is Vicbot's persistent memory. Every session starts here.",
+      "degree": 10
+    }
+  ],
+  "links": [
+    {
+      "source": "Index",
+      "target": "CLAUDE"
+    },
+    {
+      "source": "Index",
+      "target": "AGENTS"
+    },
+    {
+      "source": "Index",
+      "target": "SOUL"
+    },
+    {
+      "source": "Index",
+      "target": "TOOLS"
+    },
+    {
+      "source": "Index",
+      "target": "HEARTBEAT"
+    },
+    {
+      "source": "Index",
+      "target": "North-Star"
+    },
+    {
+      "source": "Index",
+      "target": "Victor Racquets work"
+    },
+    {
+      "source": "Index",
+      "target": "GMaps Scraper"
+    },
+    {
+      "source": "Index",
+      "target": "Stikine US Sheet Backfill"
+    },
+    {
+      "source": "Index",
+      "target": "QBO AR Collections Assistant"
+    },
+    {
+      "source": "Index",
+      "target": "Superstore Bot"
+    },
+    {
+      "source": "Index",
+      "target": "VicStockBot"
+    },
+    {
+      "source": "Index",
+      "target": "Victor Linker"
+    },
+    {
+      "source": "Index",
+      "target": "Mission Control Dashboard"
+    },
+    {
+      "source": "Index",
+      "target": "Kyle Holoboff"
+    },
+    {
+      "source": "Index",
+      "target": "Tara Drage"
+    },
+    {
+      "source": "Index",
+      "target": "Calvin Holoboff"
+    },
+    {
+      "source": "Index",
+      "target": "Tim"
+    },
+    {
+      "source": "Index",
+      "target": "Brian Tjoa"
+    },
+    {
+      "source": "Index",
+      "target": "Ellen Fan"
+    },
+    {
+      "source": "Index",
+      "target": "Amanda Wu"
+    },
+    {
+      "source": "Index",
+      "target": "Contact Harvester Architecture"
+    },
+    {
+      "source": "Index",
+      "target": "Google Sheets Bulk Upload Pattern"
+    },
+    {
+      "source": "Index",
+      "target": "Email Rules"
+    },
+    {
+      "source": "Index",
+      "target": "SOS Inventory API"
+    },
+    {
+      "source": "Index",
+      "target": "Email Extraction False Positives"
+    },
+    {
+      "source": "Index",
+      "target": "Critical Lessons"
+    },
+    {
+      "source": "Index",
+      "target": "OpenClaw Configuration"
+    },
+    {
+      "source": "Index",
+      "target": "2026-05-11-ollama-embeddings"
+    },
+    {
+      "source": "Index",
+      "target": "2026-05-10-backfill-v5-approach"
+    },
+    {
+      "source": "Index",
+      "target": "2026-05-06-deep-harvest-mandatory"
+    },
+    {
+      "source": "Index",
+      "target": "2026-05-03-two-tier-search"
+    },
+    {
+      "source": "Index",
+      "target": "2026-04-27-claude-cli-primary"
+    },
+    {
+      "source": "Index",
+      "target": "MEMORY-legacy"
+    },
+    {
+      "source": "MEMORY-legacy",
+      "target": "Kyle Holoboff"
+    },
+    {
+      "source": "MEMORY-legacy",
+      "target": "OpenClaw Configuration"
+    },
+    {
+      "source": "MEMORY-legacy",
+      "target": "Victor Racquets work"
+    },
+    {
+      "source": "MEMORY-legacy",
+      "target": "Google Sheets Bulk Upload Pattern"
+    },
+    {
+      "source": "MEMORY-legacy",
+      "target": "Superstore Bot"
+    },
+    {
+      "source": "MEMORY-legacy",
+      "target": "VicStockBot"
+    },
+    {
+      "source": "MEMORY-legacy",
+      "target": "Victor Linker"
+    },
+    {
+      "source": "MEMORY-legacy",
+      "target": "Calvin Holoboff"
+    },
+    {
+      "source": "MEMORY-legacy",
+      "target": "Tim"
+    },
+    {
+      "source": "MEMORY-legacy",
+      "target": "Brian Tjoa"
+    },
+    {
+      "source": "MEMORY-legacy",
+      "target": "Ellen Fan"
+    },
+    {
+      "source": "MEMORY-legacy",
+      "target": "Amanda Wu"
+    },
+    {
+      "source": "MEMORY-legacy",
+      "target": "SOS Inventory API"
+    },
+    {
+      "source": "MEMORY-legacy",
+      "target": "Email Rules"
+    },
+    {
+      "source": "MEMORY-legacy",
+      "target": "Critical Lessons"
+    },
+    {
+      "source": "North-Star",
+      "target": "Victor Racquets work"
+    },
+    {
+      "source": "last-session",
+      "target": "2026-05-11"
+    },
+    {
+      "source": "last-session",
+      "target": "2026-05-10-backfill-v5-approach"
+    },
+    {
+      "source": "2026-04-27",
+      "target": "2026-04-27-claude-cli-primary"
+    },
+    {
+      "source": "2026-04-27",
+      "target": "Kyle Holoboff"
+    },
+    {
+      "source": "2026-04-29",
+      "target": "Google Sheets Bulk Upload Pattern"
+    },
+    {
+      "source": "2026-05-04",
+      "target": "GMaps Scraper"
+    },
+    {
+      "source": "2026-05-06",
+      "target": "GMaps Scraper"
+    },
+    {
+      "source": "2026-05-06",
+      "target": "2026-05-06-deep-harvest-mandatory"
+    },
+    {
+      "source": "2026-05-06",
+      "target": "QBO AR Collections Assistant"
+    },
+    {
+      "source": "2026-05-06",
+      "target": "Kyle Holoboff"
+    },
+    {
+      "source": "2026-05-07",
+      "target": "Kyle Holoboff"
+    },
+    {
+      "source": "2026-05-07",
+      "target": "Victor Racquets work"
+    },
+    {
+      "source": "2026-05-07",
+      "target": "GMaps Scraper"
+    },
+    {
+      "source": "2026-05-10",
+      "target": "Kyle Holoboff"
+    },
+    {
+      "source": "2026-05-10",
+      "target": "Stikine US Sheet Backfill"
+    },
+    {
+      "source": "2026-05-10",
+      "target": "Mission Control Dashboard"
+    },
+    {
+      "source": "2026-05-10",
+      "target": "Contact Harvester Architecture"
+    },
+    {
+      "source": "2026-05-10",
+      "target": "2026-05-10-backfill-v5-approach"
+    },
+    {
+      "source": "2026-05-11",
+      "target": "2026-05-11-ollama-embeddings"
+    },
+    {
+      "source": "2026-05-11",
+      "target": "Victor Racquets work"
+    },
+    {
+      "source": "2026-05-11",
+      "target": "GMaps Scraper"
+    },
+    {
+      "source": "2026-05-11",
+      "target": "Stikine US Sheet Backfill"
+    },
+    {
+      "source": "2026-05-11",
+      "target": "QBO AR Collections Assistant"
+    },
+    {
+      "source": "2026-05-11",
+      "target": "Mission Control Dashboard"
+    },
+    {
+      "source": "2026-05-11",
+      "target": "Superstore Bot"
+    },
+    {
+      "source": "2026-05-11",
+      "target": "VicStockBot"
+    },
+    {
+      "source": "2026-05-11",
+      "target": "Victor Linker"
+    },
+    {
+      "source": "2026-05-11",
+      "target": "Kyle Holoboff"
+    },
+    {
+      "source": "2026-05-11",
+      "target": "Tara Drage"
+    },
+    {
+      "source": "2026-05-11",
+      "target": "Calvin Holoboff"
+    },
+    {
+      "source": "2026-05-11",
+      "target": "Tim"
+    },
+    {
+      "source": "2026-05-11",
+      "target": "Brian Tjoa"
+    },
+    {
+      "source": "2026-05-11",
+      "target": "Ellen Fan"
+    },
+    {
+      "source": "2026-05-11",
+      "target": "Amanda Wu"
+    },
+    {
+      "source": "2026-05-11",
+      "target": "Contact Harvester Architecture"
+    },
+    {
+      "source": "2026-05-11",
+      "target": "Google Sheets Bulk Upload Pattern"
+    },
+    {
+      "source": "2026-05-11",
+      "target": "Email Rules"
+    },
+    {
+      "source": "2026-05-11",
+      "target": "SOS Inventory API"
+    },
+    {
+      "source": "2026-05-11",
+      "target": "Email Extraction False Positives"
+    },
+    {
+      "source": "2026-05-11",
+      "target": "Critical Lessons"
+    },
+    {
+      "source": "2026-05-11",
+      "target": "OpenClaw Configuration"
+    },
+    {
+      "source": "GMaps Scraper",
+      "target": "2026-05-06-deep-harvest-mandatory"
+    },
+    {
+      "source": "GMaps Scraper",
+      "target": "2026-05-03-two-tier-search"
+    },
+    {
+      "source": "GMaps Scraper",
+      "target": "Kyle Holoboff"
+    },
+    {
+      "source": "GMaps Scraper",
+      "target": "2026-05-10"
+    },
+    {
+      "source": "GMaps Scraper",
+      "target": "2026-05-07"
+    },
+    {
+      "source": "GMaps Scraper",
+      "target": "2026-05-06"
+    },
+    {
+      "source": "GMaps Scraper",
+      "target": "2026-05-04"
+    },
+    {
+      "source": "GMaps Scraper",
+      "target": "2026-05-03"
+    },
+    {
+      "source": "Mission Control Dashboard",
+      "target": "Kyle Holoboff"
+    },
+    {
+      "source": "Mission Control Dashboard",
+      "target": "2026-05-10"
+    },
+    {
+      "source": "QBO AR Collections Assistant",
+      "target": "Kyle Holoboff"
+    },
+    {
+      "source": "QBO AR Collections Assistant",
+      "target": "2026-05-06"
+    },
+    {
+      "source": "Stikine US Sheet Backfill",
+      "target": "2026-05-10-backfill-v5-approach"
+    },
+    {
+      "source": "Stikine US Sheet Backfill",
+      "target": "Kyle Holoboff"
+    },
+    {
+      "source": "Stikine US Sheet Backfill",
+      "target": "2026-05-10"
+    },
+    {
+      "source": "Superstore Bot",
+      "target": "Tara Drage"
+    },
+    {
+      "source": "Superstore Bot",
+      "target": "MEMORY-legacy"
+    },
+    {
+      "source": "VicStockBot",
+      "target": "Kyle Holoboff"
+    },
+    {
+      "source": "VicStockBot",
+      "target": "MEMORY-legacy"
+    },
+    {
+      "source": "Victor Linker",
+      "target": "Kyle Holoboff"
+    },
+    {
+      "source": "Victor Linker",
+      "target": "MEMORY-legacy"
+    },
+    {
+      "source": "Victor Racquets work",
+      "target": "Calvin Holoboff"
+    },
+    {
+      "source": "Victor Racquets work",
+      "target": "Tim"
+    },
+    {
+      "source": "Victor Racquets work",
+      "target": "Brian Tjoa"
+    },
+    {
+      "source": "Victor Racquets work",
+      "target": "Ellen Fan"
+    },
+    {
+      "source": "Victor Racquets work",
+      "target": "Amanda Wu"
+    },
+    {
+      "source": "Victor Racquets work",
+      "target": "2026-05-10"
+    },
+    {
+      "source": "Victor Racquets work",
+      "target": "2026-05-07"
+    },
+    {
+      "source": "Victor Racquets work",
+      "target": "2026-05-06"
+    },
+    {
+      "source": "Victor Racquets work",
+      "target": "2026-05-04"
+    },
+    {
+      "source": "Victor Racquets work",
+      "target": "2026-05-03"
+    },
+    {
+      "source": "Amanda Wu",
+      "target": "Victor Racquets work"
+    },
+    {
+      "source": "Brian Tjoa",
+      "target": "Victor Racquets work"
+    },
+    {
+      "source": "Calvin Holoboff",
+      "target": "Victor Racquets work"
+    },
+    {
+      "source": "Ellen Fan",
+      "target": "Victor Racquets work"
+    },
+    {
+      "source": "Kyle Holoboff",
+      "target": "Victor Racquets work"
+    },
+    {
+      "source": "Kyle Holoboff",
+      "target": "Tara Drage"
+    },
+    {
+      "source": "Tara Drage",
+      "target": "Kyle Holoboff"
+    },
+    {
+      "source": "Tim",
+      "target": "Victor Racquets work"
+    },
+    {
+      "source": "_directory",
+      "target": "Kyle Holoboff"
+    },
+    {
+      "source": "_directory",
+      "target": "Tara Drage"
+    },
+    {
+      "source": "_directory",
+      "target": "Calvin Holoboff"
+    },
+    {
+      "source": "_directory",
+      "target": "Tim"
+    },
+    {
+      "source": "_directory",
+      "target": "Brian Tjoa"
+    },
+    {
+      "source": "_directory",
+      "target": "Ellen Fan"
+    },
+    {
+      "source": "_directory",
+      "target": "Amanda Wu"
+    },
+    {
+      "source": "Contact Harvester Architecture",
+      "target": "2026-05-06"
+    },
+    {
+      "source": "Contact Harvester Architecture",
+      "target": "2026-05-04"
+    },
+    {
+      "source": "Contact Harvester Architecture",
+      "target": "2026-05-03"
+    },
+    {
+      "source": "Contact Harvester Architecture",
+      "target": "2026-05-10"
+    },
+    {
+      "source": "Contact Harvester Architecture",
+      "target": "GMaps Scraper"
+    },
+    {
+      "source": "Contact Harvester Architecture",
+      "target": "Google Sheets Bulk Upload Pattern"
+    },
+    {
+      "source": "Critical Lessons",
+      "target": "MEMORY-legacy"
+    },
+    {
+      "source": "Critical Lessons",
+      "target": "2026-04-29"
+    },
+    {
+      "source": "Critical Lessons",
+      "target": "Email Rules"
+    },
+    {
+      "source": "Critical Lessons",
+      "target": "Google Sheets Bulk Upload Pattern"
+    },
+    {
+      "source": "Email Extraction False Positives",
+      "target": "2026-05-03"
+    },
+    {
+      "source": "Email Extraction False Positives",
+      "target": "Contact Harvester Architecture"
+    },
+    {
+      "source": "Email Extraction False Positives",
+      "target": "GMaps Scraper"
+    },
+    {
+      "source": "Email Rules",
+      "target": "MEMORY-legacy"
+    },
+    {
+      "source": "Email Rules",
+      "target": "Victor Racquets work"
+    },
+    {
+      "source": "Google Sheets Bulk Upload Pattern",
+      "target": "2026-05-06"
+    },
+    {
+      "source": "Google Sheets Bulk Upload Pattern",
+      "target": "2026-04-29"
+    },
+    {
+      "source": "Google Sheets Bulk Upload Pattern",
+      "target": "Victor Racquets work"
+    },
+    {
+      "source": "Google Sheets Bulk Upload Pattern",
+      "target": "Contact Harvester Architecture"
+    },
+    {
+      "source": "SOS Inventory API",
+      "target": "MEMORY-legacy"
+    },
+    {
+      "source": "SOS Inventory API",
+      "target": "VicStockBot"
+    },
+    {
+      "source": "2026-04-27-claude-cli-primary",
+      "target": "OpenClaw Configuration"
+    },
+    {
+      "source": "2026-05-03-two-tier-search",
+      "target": "GMaps Scraper"
+    },
+    {
+      "source": "2026-05-03-two-tier-search",
+      "target": "Contact Harvester Architecture"
+    },
+    {
+      "source": "2026-05-06-deep-harvest-mandatory",
+      "target": "GMaps Scraper"
+    },
+    {
+      "source": "2026-05-06-deep-harvest-mandatory",
+      "target": "Contact Harvester Architecture"
+    },
+    {
+      "source": "2026-05-10-backfill-v5-approach",
+      "target": "Stikine US Sheet Backfill"
+    },
+    {
+      "source": "2026-05-10-backfill-v5-approach",
+      "target": "GMaps Scraper"
+    },
+    {
+      "source": "2026-05-11-ollama-embeddings",
+      "target": "OpenClaw Configuration"
+    },
+    {
+      "source": "CLAUDE",
+      "target": "AGENTS"
+    },
+    {
+      "source": "CLAUDE",
+      "target": "SOUL"
+    },
+    {
+      "source": "CLAUDE",
+      "target": "TOOLS"
+    },
+    {
+      "source": "CLAUDE",
+      "target": "HEARTBEAT"
+    },
+    {
+      "source": "CLAUDE",
+      "target": "MEMORY-legacy"
+    },
+    {
+      "source": "CLAUDE",
+      "target": "Index"
+    },
+    {
+      "source": "CLAUDE",
+      "target": "North-Star"
+    },
+    {
+      "source": "CLAUDE",
+      "target": "last-session"
+    },
+    {
+      "source": "CLAUDE",
+      "target": "active_tasks"
+    }
+  ]
+}

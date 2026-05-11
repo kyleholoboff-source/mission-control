@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import {
+  Brain,
   Calendar,
   KanbanSquare,
   LayoutGrid,
@@ -16,6 +17,7 @@ const NAV = [
   { href: "/board", label: "Task Board", icon: KanbanSquare },
   { href: "/calendar", label: "Calendar", icon: Calendar },
   { href: "/projects", label: "Projects", icon: LayoutGrid },
+  { href: "/memory", label: "Memory", icon: Brain },
 ] as const;
 
 export function Sidebar() {
